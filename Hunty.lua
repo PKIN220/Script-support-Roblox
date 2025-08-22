@@ -105,12 +105,12 @@ MainTab:Toggle({
     end
 })
 
--- Auto Aim Zombie
+-- Auto Zombie
 local AutoAim = false
 local AutoAimLoop
 MainTab:Toggle({
-    Title = "Auto Aim Zombie",
-    Desc = "ล็อกหัวซอมบี้แล้วยิงรัว",
+    Title = "Auto farm Zombie",
+    Desc = "จะค่อยๆฆ่า",
     Value = false,
     Callback = function(v)
         AutoAim = v
